@@ -8,6 +8,9 @@
 
 xquery version "3.0" encoding "UTF-8";
 declare namespace psv = "http://www.eki.ee/dict/psv";
+declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
+declare option output:omit-xml-declaration "yes";
+declare option output:method "xhtml";
 
 (:~
  : Simple script for extracting all adjectival words marked as 
