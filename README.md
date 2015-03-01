@@ -2,12 +2,13 @@
 
 NB! See on esialgne proov ja alles katsetamisfaasis.
 
-[Anki](http://ankisrs.net/) on üks mitmetest vaba-tarkvaralistest sähvikuprogrammidest. Mitmed EKI keeleressursid sobiksid konverteerida headeks keeleõppe-materjalideks eesti keele iseõppijale. Eriti [Põhisõnavara sõnastik](http://www.eki.ee/dict/psv/] sisaldab palju kategooriaid ja eri liiki informatsiooni. Sähvikud on lihtne abivahend mälutreenimiseks, mis sobib hästi näiteks väiksemate sõnavara või faktide kogude mäletamiseks repetitsiooni teel.
+[Anki](http://ankisrs.net/) on üks mitmetest vaba-tarkvaralistest sähvikuprogrammidest. Mitmed EKI keeleressursid sobiksid konverteerida headeks keeleõppe-materjalideks eesti keele iseõppijale. Eriti [Põhisõnavara sõnastik](http://www.eki.ee/dict/psv/) sisaldab palju kategooriaid ja eri liiki informatsiooni. Sähvikud on lihtne abivahend mälutreenimiseks, mis sobib hästi näiteks väiksemate sõnavara või faktide kogude mäletamiseks repetitsiooni teel.
 
 Meil on võimalik konverteerida mitmel moel: 
-1) CSV tekstifail
-2) SuperMemo XML tegemine
-3) Anki .apkg faili tegemine
+
+1. CSV tekstifail
+2. SuperMemo XML tegemine
+3. Anki .apkg faili tegemine
 
 Proovime neid järjest, alustades esimesest.
 
@@ -24,10 +25,11 @@ Kuna märksõnadel võib esineda mitu seletust ja ka seletustel võib esineda mi
 ## Variant 1) tekstifailist importimine
 
 See on kõige lihtsam variant aga vajab käsitööd ja pole seega automatiseeritav. Me peame tegema:
-1) Koostama tekstifaili seletuste ja märksõnade tabeliga
+
+1. Koostama tekstifaili seletuste ja märksõnade tabeliga
    tehakse XQuery skriptiga 'tekstifaili-koostamine.xq'
 
-2) Importima tekstifail Ankisse
+2. Importima tekstifail Ankisse
    saame teada, et:
 ```
    Importing complete.
@@ -37,10 +39,10 @@ See on kõige lihtsam variant aga vajab käsitööd ja pole seega automatiseerit
 ```
    Ignoreerime seda.
 
-3) Sättima sähvikute seadeid Ankis
+3. Sättima sähvikute seadeid Ankis
    Valime seletused sähvikute esiküljele ja märksõnad sähvikute vastuse ehk tagaküljele.
 
-4) Salvestama e eksportima Anki pakina  
+4. Salvestama e eksportima Anki pakina  
    Sellest tekib ``.apkg`` fail, mida me saame keeleõppijatele jagada.
    
 
