@@ -31,12 +31,12 @@ See on kõige lihtsam variant aga vajab käsitööd ja pole seega automatiseerit
 
 2. Importima tekstifail Ankisse
    saame teada, et:
-```
+   ```
    Importing complete.
    Appeared twice in file: väikese läbi- või ümbermõõduga
    Appeared twice in file: mitte paks
    88 notes added, 0 notes updated, 0 notes unchanged.
-```
+   ```
    Ignoreerime seda.
 
 3. Sättima sähvikute seadeid Ankis
