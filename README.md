@@ -13,7 +13,7 @@ Meil on võimalik konverteerida mitmel moel:
 Proovime neid järjest, alustades esimesest.
 
 Kõigepealt tuleb siiski vastata küsimusele *millest* me tahame sähvikud koostada. Pakun välja et kõik sõnad füüsiliste omadussõnade grupist, neid on 35. Selle alamhulga leiame otsinguga:
-//*:A[some $sem-group in .//*:semg satisfies $sem-group = 'omadus_füüs']
+```//*:A[some $sem-group in .//*:semg satisfies $sem-group = 'omadus_füüs']```
 
 Sähviku esiküljele ehk küsimuseks paneme seletuse, ja tagaküljele ehk vastuseks paneme märksõna, võib-olla koos muutevormidega aga kindlasti lingiga sõnastikuotsingule.
 
