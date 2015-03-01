@@ -26,7 +26,11 @@ declare option output:method "xhtml";
 (: Base URL for headword links :)
 let $link := 'http://eki.ee/dict/psv/index.cgi?Q='
 (: Return all adjectives for physical qualities :)
-let $articles := //psv:A[some $sem-group in .//psv:semg satisfies $sem-group = 'omadus_füüs']
+let $articles := //psv:A[
+    (some $pos in .//psv:sl satisfies $pos = 'A')
+    and
+    (some $sem-group in .//psv:semg satisfies $sem-group = 'omadus_füüs')
+  ]
 
 for $article in $articles
   let $definitions := $article//psv:d
