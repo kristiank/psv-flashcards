@@ -4,6 +4,8 @@ NB! See on esialgne proov ja alles katsetamisfaasis.
 
 [Anki](http://ankisrs.net/) on üks mitmetest vaba-tarkvaralistest sähvikuprogrammidest. Mitmed EKI keeleressursid sobiksid konverteerida headeks keeleõppe-materjalideks eesti keele iseõppijale. Eriti [Põhisõnavara sõnastik](http://www.eki.ee/dict/psv/) sisaldab palju kategooriaid ja eri liiki informatsiooni. Sähvikud on lihtne abivahend mälutreenimiseks, mis sobib hästi näiteks väiksemate sõnavara või faktide kogude mäletamiseks repetitsiooni teel.
 
+Anki kasutajaliidese eestindamine käib [launchpadis](https://translations.launchpad.net/anki/trunk).
+
 Meil on võimalik konverteerida mitmel moel: 
 
 1. CSV tekstifail
